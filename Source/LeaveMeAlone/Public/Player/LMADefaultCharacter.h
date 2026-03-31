@@ -47,10 +47,10 @@ protected:
 	UPROPERTY(BlueprintReadWrite, EditDefaultsOnly, Category = "Components|Stamina")
 	float MaxStamina = 300.0f;
 
-	UPROPERTY(EditDefaultsOnly, Category = "Components|Stamina")
+	UPROPERTY(BlueprintReadWrite, EditDefaultsOnly, Category = "Components|Stamina")
 	float StaminaDrainRate = 50.0f;
 
-	UPROPERTY(EditDefaultsOnly, Category = "Components|Stamina")
+	UPROPERTY(BlueprintReadWrite, EditDefaultsOnly, Category = "Components|Stamina")
 	float StaminaRecoveryRate = 10.0f;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Components|Stamina")
